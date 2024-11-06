@@ -1,0 +1,84 @@
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+   
+    border-color: aqua;
+    color: rgb(7, 247, 35);
+}
+
+#shop{
+    font-size: 2.1em;
+    text-decoration: dotted;
+    color: rgb(164, 234, 148);
+}
+#shop:hover{
+    color: rgb(63, 96, 105);
+    padding: 1px;
+}
+
+/* change navigation menu color */
+.navbar-nav li a{
+    color: rgb(32, 78, 143);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.navbar-nav li a:hover{
+    color: rgb(37, 56, 61);
+    
+}
+#myMenu{
+    
+    border-color: aqua;
+    display: flex;
+    justify-content: center;
+    
+}
+#myMenu li a{
+    display: flex;
+   
+    justify-content: space-between;
+    
+}
+/* Make Header Image Responsive */
+.back-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    border-radius: 0px;
+    margin-top: 2px;
+  }
+
+#Contact{
+    margin-top:  4px;
+    background-color: rgb(7, 247, 35);
+}
+#Customer{
+    margin-top:  4px;
+}
+#footer{
+    margin-top: 7px;
+    height: 100px;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px solid black;
+}
+
+#opo{
+    color: royalblue;
+    font-size: 5em;
+}
+
+.admin_img{
+    height: 100px;
+    width:200px;
+    object-fit: contain;
+}
